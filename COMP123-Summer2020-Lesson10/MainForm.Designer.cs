@@ -47,7 +47,7 @@
             // MainFormLabel
             // 
             this.MainFormLabel.AutoSize = true;
-            this.MainFormLabel.Location = new System.Drawing.Point(190, 64);
+            this.MainFormLabel.Location = new System.Drawing.Point(239, 63);
             this.MainFormLabel.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.MainFormLabel.Name = "MainFormLabel";
             this.MainFormLabel.Size = new System.Drawing.Size(142, 31);
