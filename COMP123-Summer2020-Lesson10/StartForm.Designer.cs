@@ -30,13 +30,15 @@
         {
             this.NextButton = new System.Windows.Forms.Button();
             this.StartFormLabel = new System.Windows.Forms.Label();
+            this.BackButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // NextButton
             // 
-            this.NextButton.Location = new System.Drawing.Point(462, 388);
+            this.NextButton.Location = new System.Drawing.Point(372, 90);
+            this.NextButton.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.NextButton.Name = "NextButton";
-            this.NextButton.Size = new System.Drawing.Size(150, 50);
+            this.NextButton.Size = new System.Drawing.Size(179, 67);
             this.NextButton.TabIndex = 0;
             this.NextButton.Text = "Next";
             this.NextButton.UseVisualStyleBackColor = true;
@@ -44,21 +46,35 @@
             // StartFormLabel
             // 
             this.StartFormLabel.AutoSize = true;
-            this.StartFormLabel.Location = new System.Drawing.Point(265, 159);
+            this.StartFormLabel.Location = new System.Drawing.Point(238, 23);
+            this.StartFormLabel.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.StartFormLabel.Name = "StartFormLabel";
-            this.StartFormLabel.Size = new System.Drawing.Size(55, 13);
+            this.StartFormLabel.Size = new System.Drawing.Size(142, 31);
             this.StartFormLabel.TabIndex = 1;
             this.StartFormLabel.Text = "Start Form";
             this.StartFormLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // BackButton
+            // 
+            this.BackButton.Location = new System.Drawing.Point(55, 102);
+            this.BackButton.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.BackButton.Name = "BackButton";
+            this.BackButton.Size = new System.Drawing.Size(197, 67);
+            this.BackButton.TabIndex = 3;
+            this.BackButton.Text = "Next";
+            this.BackButton.UseVisualStyleBackColor = true;
+            // 
             // StartForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(624, 441);
+            this.Controls.Add(this.BackButton);
             this.Controls.Add(this.StartFormLabel);
             this.Controls.Add(this.NextButton);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.MaximizeBox = false;
             this.Name = "StartForm";
             this.Text = "StartForm";
@@ -71,6 +87,7 @@
 
         private System.Windows.Forms.Button NextButton;
         private System.Windows.Forms.Label StartFormLabel;
+        private System.Windows.Forms.Button BackButton;
     }
 }
 

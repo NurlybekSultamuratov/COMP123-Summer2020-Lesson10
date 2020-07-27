@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace COMP123_Summer2020_Lesson10
 {
-    public partial class MainForm : Form
+    public partial class EndForm : Form
     {
-        public MainForm()
+        public EndForm()
         {
             InitializeComponent();
-        }
-
-        private void MainFormLabel_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
